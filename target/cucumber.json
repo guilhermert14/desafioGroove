@@ -1,0 +1,114 @@
+[
+  {
+    "line": 5,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-18T13:49:05.808Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3099203419,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.berforeWeb()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Validar um cadastro",
+        "description": "",
+        "id": "realizar-um-cadastro-no-site-automationpractice\";validar-um-cadastro",
+        "after": [
+          {
+            "result": {
+              "duration": 139993368,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterWeb()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4097705972,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que estou no site \"http://automationpractice.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://automationpractice.com\"",
+                  "offset": 18
+                }
+              ],
+              "location": "CadastroStep.queEstouNoSite(String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1511605128,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clico no link \"Sign in\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sign in\"",
+                  "offset": 14
+                }
+              ],
+              "location": "HomeStep.clicoNoLink(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 7243116936,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "realizo um cadastro",
+            "match": {
+              "location": "CadastroStep.realizoUmCadastro()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 86936295,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "visualizo o cadastro efetuado com sucesso",
+            "match": {
+              "location": "CadastroStep.visualizoOCadastroEfetuadoComSucesso()"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@web"
+          },
+          {
+            "name": "@cadastro"
+          }
+        ]
+      }
+    ],
+    "name": "Realizar um cadastro no site automationpractice\"",
+    "description": "",
+    "id": "realizar-um-cadastro-no-site-automationpractice\"",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/cadastro.feature",
+    "tags": []
+  }
+]

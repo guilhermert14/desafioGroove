@@ -1,6 +1,7 @@
 package practice.steps;
 
 import io.cucumber.java.pt.*;
+import org.junit.Assert;
 import practice.funcionalidades.CadastroFuncionalidade;
 
 public class CadastroStep {
@@ -20,6 +21,7 @@ public class CadastroStep {
 
     @Entao("visualizo o cadastro efetuado com sucesso")
     public void visualizoOCadastroEfetuadoComSucesso() {
+        Assert.assertEquals("MY ADDRESSES", cadastroFuncionalidade.validaLoginEfetuadoComSucesso());
 
     }
 }

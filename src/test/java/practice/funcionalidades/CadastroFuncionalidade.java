@@ -14,7 +14,8 @@ public class CadastroFuncionalidade extends BaseTest {
     private CadastroPage cadastroPage;
     Faker faker = new Faker(new Locale("pt-BR"));
     int random = 1 + (int) (Math.random() * 10000);
-    String nome = faker.name().firstName().replaceAll(" ", "_");
+    String email = faker.name().firstName().replace(" ", "_");
+    String nome = faker.name().firstName();
     String sobrenome = faker.name().lastName();
     String endereco = faker.address().streetName();
     String cidade = faker.address().city();
@@ -33,7 +34,7 @@ public class CadastroFuncionalidade extends BaseTest {
 
     public void preencherCadastro() {
         wait.until(ExpectedConditions.elementToBeClickable(cadastroPage.getCampoEmail()));
-        cadastroPage.getCampoEmail().sendKeys(nome + random + "@com.br");
+        cadastroPage.getCampoEmail().sendKeys(email + random + "@com.br");
         cadastroPage.getBotaoCriarConta().click();
 
         wait.until(ExpectedConditions.elementToBeClickable(cadastroPage.getCampoNome()));
@@ -44,7 +45,7 @@ public class CadastroFuncionalidade extends BaseTest {
         cadastroPage.getCampoSenha().sendKeys("desafioGroove");
         SeleniumRobot.selecionarOpcaoDropDownRandomico(cadastroPage.getSelectDia());
         SeleniumRobot.selecionarOpcaoDropDownRandomico(cadastroPage.getSelectMes());
-        SeleniumRobot.selecionarOpcaoDropDownRandomico(cadastroPage.getSelectAno());
+        SeleniumRobot.selecionaValueDropDown(cadastroPage.getSelectAno(), "2000");
         cadastroPage.getCheckBoxSignUp().click();
         cadastroPage.getCampoNomeOutroEndereco().clear();
         cadastroPage.getCampoNomeOutroEndereco().sendKeys(faker.name().firstName());
@@ -54,7 +55,7 @@ public class CadastroFuncionalidade extends BaseTest {
         cadastroPage.getCampoEndereco().sendKeys(endereco);
         cadastroPage.getCampoCidade().sendKeys(cidade);
         SeleniumRobot.selecionarOpcaoDropDownRandomico(cadastroPage.getSelectEstado());
-        cadastroPage.getCampoCep().sendKeys("01001001");
+        cadastroPage.getCampoCep().sendKeys("11361");
         SeleniumRobot.selecionaTextoDropDown(cadastroPage.getSelectPais(), "United States");
         cadastroPage.getCampoInformacao().sendKeys("desafio Groove");
         cadastroPage.getCampoTelefone().sendKeys(telefone);
@@ -62,6 +63,11 @@ public class CadastroFuncionalidade extends BaseTest {
         cadastroPage.getCampoReferencia().clear();
         cadastroPage.getCampoReferencia().sendKeys("Teste Automacao");
         cadastroPage.getBotaoRegistrar().click();
+    }
+
+    public String validaLoginEfetuadoComSucesso(){
+        wait.until(ExpectedConditions.elementToBeClickable(cadastroPage.getBotaoMeuEndereco()));
+        return cadastroPage.getBotaoMeuEndereco().getText();
     }
 
 }

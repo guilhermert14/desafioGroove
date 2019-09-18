@@ -37,5 +37,12 @@ public class SeleniumRobot extends BaseTest{
 
     }
 
+    public static void selecionaValueDropDown(WebElement elememto, String valor) {
+
+        Select nameItem = new Select(elememto);
+        nameItem.selectByValue(valor);
+
+    }
+
 
 }

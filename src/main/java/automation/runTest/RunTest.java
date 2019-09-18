@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
                 "automation", "practice",
         },
         tags = {
-                "@cadastro"
+                "@web"
         }
 )
 public class RunTest extends BaseTest {

@@ -85,6 +85,9 @@ public class CadastroPage {
     @FindBy(id = "submitAccount")
     private WebElement botaoRegistrar;
 
+    @FindBy(xpath = "//a[@title='Addresses']")
+    private WebElement botaoMeuEndereco;
+
 
 
     public WebElement getCampoEmail() {
@@ -185,5 +188,9 @@ public class CadastroPage {
 
     public WebElement getBotaoRegistrar() {
         return botaoRegistrar;
+    }
+
+    public WebElement getBotaoMeuEndereco() {
+        return botaoMeuEndereco;
     }
 }
