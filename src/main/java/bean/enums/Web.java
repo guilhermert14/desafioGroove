@@ -15,7 +15,7 @@ public enum Web implements WebApplication {
     CHROME {
         @Override
         public WebDriver getDriver() {
-            System.setProperty("webdriver.chrome.driver","chromedriver");
+            System.setProperty("webdriver.chrome.driver","drivers//chromedriver.exe");
             Map<String, Object> prefs = new HashMap<String, Object>();
             prefs.put("profile.default_content_setting_values.notifications",2);
             ChromeOptions options = new ChromeOptions();

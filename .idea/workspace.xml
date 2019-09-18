@@ -7,22 +7,8 @@
       <change afterPath="$PROJECT_DIR$/../cursoApi/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../cursoApi/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../cursoApi/src/main/java/rest/OlaMundoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/automation/commons/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/automation/commons/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/automation/commons/SeleniumRobot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/automation/commons/SeleniumRobot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/automation/runTest/RunTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/automation/runTest/RunTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bean/enums/Web.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean/enums/Web.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/funcionalidades/CadastroFuncionalidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/funcionalidades/CadastroFuncionalidade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/pages/CadastroPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/pages/CadastroPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/steps/CadastroStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/steps/CadastroStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/automation/commons/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/automation/commons/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/automation/runTest/RunTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/automation/runTest/RunTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bean/enums/Web$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bean/enums/Web$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bean/enums/Web$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bean/enums/Web$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/api/filme.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/web/cadastro.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/practice/rest/FilmsApi.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/automation/commons/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+              <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/practice/funcionalidades/CadastroFuncionalidade.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="47" column="44" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
+            <state relative-caret-position="525">
+              <caret line="68" selection-start-line="68" selection-end-line="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,7 +91,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/automation/configuration/Hooks.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+              <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#257#258#0" expanded="true" />
@@ -129,11 +115,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/bean/enums/Web.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+            <state relative-caret-position="215">
+              <caret line="17" column="83" selection-start-line="17" selection-start-column="83" selection-end-line="17" selection-end-column="83" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -221,12 +207,12 @@
         <option value="$PROJECT_DIR$/src/main/java/automation/reports/GenerateHTMLReport.java" />
         <option value="$PROJECT_DIR$/src/main/java/automation/commons/HashDados.java" />
         <option value="$PROJECT_DIR$/src/main/java/automation/runTest/RunTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bean/enums/Web.java" />
-        <option value="$PROJECT_DIR$/src/main/java/automation/commons/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/practice/pages/CadastroPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/practice/steps/CadastroStep.java" />
         <option value="$PROJECT_DIR$/src/main/java/automation/commons/SeleniumRobot.java" />
         <option value="$PROJECT_DIR$/src/test/java/practice/funcionalidades/CadastroFuncionalidade.java" />
+        <option value="$PROJECT_DIR$/src/main/java/automation/commons/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bean/enums/Web.java" />
       </list>
     </option>
   </component>
@@ -432,18 +418,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RunTest - 2019.09.18 at 10h 21m 25s.xml">
-      <configuration name="RunTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunTest - 2019.09.18 at 10h 21m 38s.xml">
-      <configuration name="RunTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunTest - 2019.09.18 at 10h 24m 21s.xml">
-      <configuration name="RunTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunTest - 2019.09.18 at 10h 24m 35s.xml">
-      <configuration name="RunTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RunTest - 2019.09.18 at 10h 25m 05s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
@@ -462,6 +436,18 @@
     <history-entry file="RunTest - 2019.09.18 at 10h 46m 36s.xml">
       <configuration name="RunTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RunTest - 2019.09.18 at 10h 48m 07s.xml">
+      <configuration name="RunTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunTest - 2019.09.18 at 10h 48m 30s.xml">
+      <configuration name="RunTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunTest - 2019.09.18 at 10h 48m 56s.xml">
+      <configuration name="RunTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunTest - 2019.09.18 at 10h 49m 22s.xml">
+      <configuration name="RunTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -477,11 +463,11 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
@@ -522,18 +508,6 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout-to-restore>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/practice/funcionalidades/CadastroFuncionalidade.java</url>
-          <line>68</line>
-          <properties />
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -668,16 +642,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/automation/commons/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -693,40 +657,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#448#449#0" expanded="true" />
             <element signature="e#506#507#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/automation/configuration/Hooks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bean/enums/Web.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/practice/steps/HomeStep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -760,8 +690,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/practice/funcionalidades/CadastroFuncionalidade.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="47" column="44" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
+        <state relative-caret-position="525">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/practice/steps/HomeStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/automation/commons/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/automation/configuration/Hooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bean/enums/Web.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="17" column="83" selection-start-line="17" selection-start-column="83" selection-end-line="17" selection-end-column="83" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

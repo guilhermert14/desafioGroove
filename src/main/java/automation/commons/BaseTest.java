@@ -12,7 +12,7 @@ public class BaseTest {
 
     protected void inicialiarWeb(WebApplication webApplication) {
         driver = webApplication.getDriver();
-        driver.manage().window().fullscreen();
+        driver.manage().window().maximize();
         wait = new WebDriverWait(driver, 15);
     }
 
